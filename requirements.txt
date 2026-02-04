@@ -1,0 +1,22 @@
+# ========== Python版本约束：3.10（>=3.10,<3.11） ==========
+# ========== Web框架（固定版本） ==========
+flask==3.1.0
+flask-cors==5.0.0
+flask-sqlalchemy==3.1.1
+gunicorn>=23.0.0
+
+# ========== LangChain核心（按项目要求） ==========
+langchain>=0.3.27
+langchain-community>=0.3.29
+langchain-openai>=0.3.32
+
+# ========== 其他核心依赖 ==========
+openai>=1.106.1
+oss2>=2.19.1
+pydantic-settings>=2.10.1
+pymilvus>=2.6.1
+
+# ========== 基础工具（适配3.10） ==========
+python-dotenv==1.0.1
+pip>=23.0.1
+setuptools>=65.5.0
